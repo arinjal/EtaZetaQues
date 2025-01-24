@@ -1,0 +1,108 @@
+body {
+    font-family: 'Times New Roman', Times;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style for the entire nav bar */
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative; /* Necessary for dropdown positioning */
+    margin: 0 15px;
+}
+
+/* Style for links */
+nav ul li a {
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Hover effect for main links */
+nav ul li a:hover {
+}
+
+/* Hide the dropdown menu by default */
+nav ul li ul {
+    display: none; /* Hide the dropdown content */
+    position: absolute; /* Position the dropdown below the parent item */
+    top: 100%; /* Make it appear directly below the parent item */
+    left: 0;
+    background-color: #cfb53b; /* Gold background for dropdown */
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+/* Show the dropdown when hovering over the parent item */
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Style the dropdown links */
+nav ul li ul li a {
+    display: block;
+    padding: 10px;
+    color: #7851a9; /* Purple text color for dropdown links */
+}
+
+nav ul li ul li a:hover {
+    background-color: #7851a9;
+    color: white;
+}
+
+
+header {
+    background: #cfb53b;
+    color: #7851a9;
+    padding: 10px 0;
+}
+
+/* Style for the second header */
+.sub-header {
+    background: #7851a9; /* Dark background for the second header */
+    color: white; /* Text color for second header */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.3em; /* Make the chapter name larger */
+    margin-top: 0; /* Remove default margins */
+    margin-bottom: 0px;
+    font-family: 'Times New Roman'; /* Set font family */
+    padding-left: 50px;
+    padding-top: 0%;
+    color: #fff;
+}
+
+header h3 {
+    font-size: 1.0em; /* Make the frat name smaller */
+    font-family: 'Times'; /* Set font family */
+    margin-top: 25px;
+    margin-bottom: 3px;
+    padding-left: 35px ;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
