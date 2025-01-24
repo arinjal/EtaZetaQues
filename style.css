@@ -27,10 +27,6 @@ nav ul li a {
     padding: 10px;
 }
 
-/* Hover effect for main links */
-nav ul li a:hover {
-}
-
 /* Hide the dropdown menu by default */
 nav ul li ul {
     display: none; /* Hide the dropdown content */
