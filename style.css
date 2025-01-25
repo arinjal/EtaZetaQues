@@ -71,6 +71,7 @@ header {
 }
 
 header h2 {
+    text-align: center;
     font-size: 1.3em; /* Make the chapter name larger */
     margin-top: 0; /* Remove default margins */
     margin-bottom: 0px;
@@ -81,6 +82,7 @@ header h2 {
 }
 
 header h3 {
+    text-align: center;
     font-size: 1.0em; /* Make the frat name smaller */
     font-family: 'Times'; /* Set font family */
     margin-top: 25px;
@@ -97,7 +99,7 @@ section {
 }
 
 footer {
-    background: #333;
+    background: #cfb53b;
     color: #fff;
     text-align: center;
     padding: 10px 0;
