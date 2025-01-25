@@ -34,7 +34,7 @@ EtaZetaQues/
 |-- README.md            # Project documentation
 ```
 
-## ⚙️ Technologies Used
+## 🛠️  Technologies Used
 - HTML: Structure and content of the webpages.
 - CSS: Styling for layout, fonts, colors, and responsive design.
 - GitHub Pages: Hosting the website for public access.
